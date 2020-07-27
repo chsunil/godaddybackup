@@ -1,0 +1,20 @@
+[27-Dec-2019 18:04:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[27-Dec-2019 18:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[27-Dec-2019 18:04:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[27-Dec-2019 18:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[27-Dec-2019 18:04:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19

@@ -1,0 +1,44 @@
+[23-Oct-2019 11:28:33 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT option_value FROM wp_options WHERE option_name = '_transient_ampforwp-pm-disabler' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/accelerated-mobile-pages/accelerated-moblie-pages.php'), get_transient, get_option
+[23-Oct-2019 11:28:42 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp_wfblocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[23-Dec-2019 07:24:03 UTC] WordPress database error Query execution was interrupted for query SELECT option_value FROM wp_options WHERE option_name = 'cache' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Cache_Enabler::instance, Cache_Enabler->__construct, Cache_Enabler::_set_default_vars, Cache_Enabler::_get_options, get_option
+[23-Dec-2019 07:24:03 UTC] WordPress database error Query execution was interrupted for query SELECT option_value FROM wp_options WHERE option_name = 'cache' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Cache_Enabler::instance, Cache_Enabler->__construct, Cache_Enabler::_set_default_vars, Cache_Enabler::_get_options, get_option
+[08-Feb-2020 20:59:14 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/vld59wnk8d6q/public_html/adingagency.com/wp-includes/update.php on line 384
+[20-Feb-2020 22:24:04 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/elementor-pro/license/updater.php:150
+Stack trace:
+#0 /home/vld59wnk8d6q/public_html/adingagency.com/wp-includes/class-wp-hook.php(286): ElementorPro\License\Updater->plugins_api_filter(false, 'plugin_informat...', Object(stdClass))
+#1 /home/vld59wnk8d6q/public_html/adingagency.com/wp-includes/plugin.php(208): WP_Hook->apply_filters(false, Array)
+#2 /home/vld59wnk8d6q/public_html/adingagency.com/wp-admin/includes/plugin-install.php(149): apply_filters('plugins_api', false, 'plugin_informat...', Object(stdClass))
+#3 /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/wordfence/lib/wfScanEngine.php(1576): plugins_api('plugin_informat...', Object(stdClass))
+#4 /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/wordfence/lib/wfScanEngine.php(391): wfScanEngine->scan_oldVersions_main()
+#5 /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/wordf in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/elementor-pro/license/updater.php on line 150
+[09-Mar-2020 21:30:57 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/elementor-pro/license/updater.php:150
+Stack trace:
+#0 /home/vld59wnk8d6q/public_html/adingagency.com/wp-includes/class-wp-hook.php(286): ElementorPro\License\Updater->plugins_api_filter(false, 'plugin_informat...', Object(stdClass))
+#1 /home/vld59wnk8d6q/public_html/adingagency.com/wp-includes/plugin.php(208): WP_Hook->apply_filters(false, Array)
+#2 /home/vld59wnk8d6q/public_html/adingagency.com/wp-admin/includes/plugin-install.php(149): apply_filters('plugins_api', false, 'plugin_informat...', Object(stdClass))
+#3 /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/wordfence/lib/wfScanEngine.php(1576): plugins_api('plugin_informat...', Object(stdClass))
+#4 /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/wordfence/lib/wfScanEngine.php(391): wfScanEngine->scan_oldVersions_main()
+#5 /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/wordf in /home/vld59wnk8d6q/public_html/adingagency.com/wp-content/plugins/elementor-pro/license/updater.php on line 150

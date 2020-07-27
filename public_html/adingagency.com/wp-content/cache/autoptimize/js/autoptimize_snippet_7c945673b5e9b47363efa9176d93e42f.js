@@ -1,0 +1,1 @@
+(function($){"use strict";$(window).on("load",function(){$('.popup-portfolio').magnificPopup({type:'image',gallery:{enabled:true}});});})(jQuery);

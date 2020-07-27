@@ -1,0 +1,1 @@
+(function($){"use strict";$(window).on("load",function(){$('.home-slider').slick({autoplay:true,dots:false,nextArrow:'<i class="fa fa-angle-right"></i>',prevArrow:'<i class="fa fa-angle-left"></i>',speed:800,fade:true,pauseOnHover:false,pauseOnFocus:false});});})(jQuery);

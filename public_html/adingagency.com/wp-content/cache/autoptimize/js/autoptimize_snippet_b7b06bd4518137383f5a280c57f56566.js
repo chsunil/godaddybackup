@@ -1,0 +1,1 @@
+(function($){"use strict";$(window).on("load",function(){$("#status").fadeOut();$("#preloader").delay(450).fadeOut("slow");});})(jQuery);

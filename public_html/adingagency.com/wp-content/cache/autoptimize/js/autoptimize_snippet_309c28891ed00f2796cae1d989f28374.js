@@ -1,0 +1,1 @@
+(function($){"use strict";$(window).on("load",function(){$('.blog-body').each(function(){$(this).isotope();});});})(jQuery);

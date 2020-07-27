@@ -1,0 +1,836 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:52:12
+* VERSION: 1.3.20
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.30                                |7.1.30
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2019-09-07 15:47:12
+WP VERSION__________: 5.2.2
+DUP VERSION_________: 1.3.20
+DB__________________: 5.6.40
+DB TABLES___________: 43
+DB ROWS_____________: 35,779
+DB FILE SIZE________: 19.49MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.30 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/vld59wnk8d6q/public_html/adingagency.com"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://adingagency.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20190907_adingagency_785eb6e7578b292d1747_20190907154712_archive.daf"
+SIZE________________: 204.1MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 05:52:13 - RUNTIME: 1.6797 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 05:53:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.44 -- Build Server: 5.6.40
+FILE SIZE:	dup-database__785eb6e-07154712.sql (16.72MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/vld59wnk8d6q/public_html/adingagency.com/dup-installer/dup-installer-data__785eb6e-07154712.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	400
+
+wp_commentmeta: (0)
+wp_comments: (12)
+wp_duplicator_packages: (0)
+wp_hustle_modules: (1)
+wp_hustle_modules_meta: (4)
+wp_links: (7)
+wp_mondula_form_wizards: (1)
+wp_options: (510)
+wp_postmeta: (4647)
+wp_posts: (842)
+wp_smush_dir_images: (0)
+wp_term_relationships: (300)
+wp_term_taxonomy: (123)
+wp_termmeta: (0)
+wp_terms: (123)
+wp_usermeta: (143)
+wp_users: (4)
+wp_wfblockediplog: (38)
+wp_wfblocks7: (26)
+wp_wfconfig: (256)
+wp_wfcrawlers: (61)
+wp_wffilechanges: (0)
+wp_wffilemods: (12573)
+wp_wfhits: (142)
+wp_wfhoover: (0)
+wp_wfissues: (0)
+wp_wfknownfilelist: (12573)
+wp_wflivetraffichuman: (0)
+wp_wflocs: (39)
+wp_wflogins: (185)
+wp_wfls_2fa_secrets: (0)
+wp_wfls_settings: (19)
+wp_wfnotifications: (2)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (52)
+wp_wfsnipcache: (54)
+wp_wfstatus: (943)
+wp_wftrafficrates: (0)
+wp_wpforms_entries: (35)
+wp_wpforms_entry_fields: (254)
+wp_wpforms_entry_meta: (0)
+wp_yoast_seo_links: (397)
+wp_yoast_seo_meta: (1166)
+Removed '248' cache/transient rows
+
+INSERT DATA RUNTIME: 18.7511 sec.
+STEP-2 COMPLETE @ 05:53:32 - RUNTIME: 18.7864 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:54:22
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Ading Agency"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/ading790/public_html/"
+path_new______________: "/home/vld59wnk8d6q/public_html/adingagency.com/"
+siteurl_______________: "http://adingagency.com"
+url_old_______________: "https://www.ading.agency"
+url_new_______________: "http://adingagency.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "adingagencycom"
+dbname________________: "adingagency.com"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: "admin"
+wp_mail_______________: "sunil.ch@live.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: true
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hustle_modules"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_hustle_modules_meta"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_mondula_form_wizards"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   510][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  4647][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   842][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   300][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   123][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   123][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   143][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   256][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:    61][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS: 12573][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:   142][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS: 12573][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:   185][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:    52][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:   943][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_entries"______________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wpforms_entry_fields"_________________________[ROWS:   254][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_wpforms_entry_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:   397][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:  1166][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/ading790/public_html/" =====================> "/home/vld59wnk8d6q/public_html/adingagency.com/"
+	SEARCH  2:"\/home\/ading790\/public_html\/" =================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com\/"
+	SEARCH  3:"%2Fhome%2Fading790%2Fpublic_html%2F" =============> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com%2F"
+	SEARCH  4:"\home\ading790\public_html" ======================> "/home/vld59wnk8d6q/public_html/adingagency.com"
+	SEARCH  5:"\\home\\ading790\\public_html" ===================> "\/home\/vld59wnk8d6q\/public_html\/adingagency.com"
+	SEARCH  6:"%5Chome%5Cading790%5Cpublic_html" ================> "%2Fhome%2Fvld59wnk8d6q%2Fpublic_html%2Fadingagency.com"
+	SEARCH  7:"//www.ading.agency" ==============================> "//adingagency.com"
+	SEARCH  8:"\/\/www.ading.agency" ============================> "\/\/adingagency.com"
+	SEARCH  9:"%2F%2Fwww.ading.agency" ==========================> "%2F%2Fadingagency.com"
+	SEARCH 10:"//ading.agency" ==================================> "//adingagency.com"
+	SEARCH 11:"\/\/ading.agency" ================================> "\/\/adingagency.com"
+	SEARCH 12:"%2F%2Fading.agency" ==============================> "%2F%2Fadingagency.com"
+	SEARCH 13:"https://adingagency.com" =========================> "http://adingagency.com"
+	SEARCH 14:"https:\/\/adingagency.com" =======================> "http:\/\/adingagency.com"
+	SEARCH 15:"https%3A%2F%2Fadingagency.com" ===================> "http%3A%2F%2Fadingagency.com"
+--------------------------------------
+SCANNED:	Tables:43 	|	 Rows:35532 	|	 Cells:199778 
+UPDATED:	Tables:9 	|	 Rows:1528 	|	 Cells:1891 
+ERRORS:		0 
+RUNTIME:	4.095700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'admin' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""adingagency.com""
+	UPDATE DB_USER ""adingagencycom""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE FORCE_SSL_ADMIN true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Activated plugins (If they are activated) listed here will be deactivated: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:54:28 - RUNTIME: 6.1662 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

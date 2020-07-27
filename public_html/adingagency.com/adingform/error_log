@@ -1,0 +1,33 @@
+[04-Oct-2019 07:00:04 UTC] PHP Notice:  Undefined index: looking_for in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 35
+[04-Oct-2019 07:00:04 UTC] PHP Notice:  Undefined index: website in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 36
+[04-Oct-2019 07:00:04 UTC] PHP Notice:  Undefined index: phone in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 37
+[04-Oct-2019 07:00:27 UTC] PHP Notice:  Undefined index: looking_for in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 35
+[04-Oct-2019 07:00:27 UTC] PHP Notice:  Undefined index: website in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 36
+[04-Oct-2019 07:00:27 UTC] PHP Notice:  Undefined index: phone in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 37
+[04-Oct-2019 07:00:30 UTC] PHP Notice:  Undefined index: looking_for in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 35
+[04-Oct-2019 07:00:30 UTC] PHP Notice:  Undefined index: website in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 36
+[04-Oct-2019 07:00:30 UTC] PHP Notice:  Undefined index: phone in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/bottomenq.php on line 37
+[10-Oct-2019 13:57:22 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php on line 143
+[10-Oct-2019 13:57:50 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php on line 143
+[10-Oct-2019 13:59:53 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php on line 143
+[10-Oct-2019 14:02:23 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php on line 145
+[10-Oct-2019 14:02:40 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php on line 145
+[10-Oct-2019 14:19:15 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/adingform/topenq.php on line 145

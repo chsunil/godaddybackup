@@ -1,0 +1,4 @@
+[15-Oct-2019 10:40:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in /home/vld59wnk8d6q/public_html/adingagency.com/wp-admin/network/upgrade.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/vld59wnk8d6q/public_html/adingagency.com/wp-admin/network/upgrade.php on line 18
